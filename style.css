@@ -19,6 +19,7 @@ ul {
 
 button {
   background-color: #3882F6;
+  font-size: 16px;
   padding: 10px;
   border: none;
   border-radius: 10px;
@@ -31,6 +32,11 @@ h2 {
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
+}
+
+h3 {
+  color: #E5E7EB;
+  font-size: 24px;
 }
 
 .header {
@@ -111,5 +117,24 @@ h2 {
 .author {
   display: block;
   text-align: end;
+  font-weight: bold;
+}
+
+.cta {
+  padding: 20vh 15vw;
+}
+
+.cta-content {
+  background-color: #3882F6;
+  padding: 50px 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #E5E6EB;
+}
+
+.cta-btn {
+  box-shadow: none;
+  border: 2px solid white;
   font-weight: bold;
 }
