@@ -99,3 +99,17 @@ h2 {
   height: auto;
   border-radius: 16px;
 }
+
+.quote {
+  background: #E5E7EB;
+  padding: 30vh 15vw;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.author {
+  display: block;
+  text-align: end;
+  font-weight: bold;
+}
