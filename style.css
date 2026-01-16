@@ -27,6 +27,12 @@ button {
   box-shadow: 3px 3px 20px black;
 }
 
+h2 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -35,8 +41,7 @@ button {
 }
 
 .header, .hero, .footer {
-  background: #1f2937;
-
+  background: #1F2937;
 }
 
 .logo {
@@ -69,4 +74,28 @@ button {
   font-size: 18px;
   color: #E5E6EB;
   padding: 10px 0;
+}
+
+.information {
+  height: 70vh;
+  padding: 7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.info-list {
+  max-width: 70vw;
+  color: dimgray;
+  text-align: center;
+  display: flex;
+  gap: 25px;
+}
+
+.info-list img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
 }
