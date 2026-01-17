@@ -138,3 +138,11 @@ h3 {
   border: 2px solid white;
   font-weight: bold;
 }
+
+.footer {
+  height: 10vh;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
